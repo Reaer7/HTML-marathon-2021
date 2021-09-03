@@ -1,58 +1,85 @@
 body {
-    margin: 0;
-    min-width: 960px;
-    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-    font-size: 16px;
-    line-height: 32px;
+    font-family: "Montserrat", "Playfair Display", sans-serif;
     color: #AE7C78;
     background-color: #E5E5E5;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 16px;
-}
-
-.page-header {
-    margin: 0 0 160px;
-    padding: 32px 0 32px;
-}
-
-.page-header .container,
-.page-footer .container {
-    max-width: 1440px;
-}
-
-.page-header a {
-    margin-left: 56px;
-    color: #288be6;
+a {
     text-decoration: none;
-    background-repeat: no-repeat;
-    background-position: left;
+}
+
+.page-header {}
+
+.main-nav {}
+
+.main-nav a {
+    color: #AE7C78;
+}
+
+.page-main {}
+
+.intro {}
+
+.wordItalic {
+    font-style: italic;
 }
 
 .button {
-    padding: 6px 20px;
-    display: inline-block;
-    vertical-align: baseline;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 4px;
-    background-color: #288be6;
-    color: #ffffff;
-}
-
-.page-footer {
-    padding: 40px 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    border-radius: 2.5em;
     background-color: #AE7C78;
     color: #ffffff;
 }
 
-.page-footer a {
-    margin-left: 56px;
-    color: inherit;
-    text-decoration: none;
-    background-repeat: no-repeat;
-    background-position: left;
+.advantage {}
+
+.hidden {}
+
+.popular {}
+
+.slider {}
+
+.slider_item {}
+
+.slider_item-description {}
+
+.wordBold {
+    font-weight: 700;
 }
+
+.slider_item-preview {}
+
+.slider_controls {}
+
+.catalog-preview a {
+    color: #ffffff;
+}
+
+.sales {
+    color: #ffffff;
+}
+
+.steps {}
+
+.news {}
+
+.reviews {}
+
+.contacts {}
+
+.contacts a {
+    color: #AE7C78;
+}
+
+.page-footer {
+    background-color: #AE7C78;
+}
+
+.page-footer a {
+    color: #ffffff;
+}
+
+.footer-nav {}
