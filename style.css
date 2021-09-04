@@ -1,18 +1,31 @@
 body {
+    margin-top: 1%;
+    padding: 0%;
     font-family: "Montserrat", "Playfair Display", sans-serif;
     color: #AE7C78;
     background-color: #E5E5E5;
+    width: auto;
+    text-align: center;
 }
 
 a {
     text-decoration: none;
 }
 
-.page-header {}
+.page-header {
+    border-top: 1px solid #AE7C78;
+    border-bottom: 1px solid #AE7C78;
+    padding-bottom: 20px;
+}
 
-.main-nav {}
+.main-nav {
+    text-align: center;
+}
+
+.main-nav img {}
 
 .main-nav a {
+    padding-right: 5%;
     color: #AE7C78;
 }
 
@@ -32,6 +45,10 @@ a {
     border-radius: 2.5em;
     background-color: #AE7C78;
     color: #ffffff;
+}
+
+.intro img {
+    border-radius: 5%;
 }
 
 .advantage {}
@@ -76,10 +93,17 @@ a {
 
 .page-footer {
     background-color: #AE7C78;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .page-footer a {
     color: #ffffff;
+    padding-right: 5%;
+}
+
+.page-footer a img.icon {
+    padding-right: 0px;
 }
 
 .footer-nav {}
